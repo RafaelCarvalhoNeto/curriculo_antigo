@@ -9,12 +9,18 @@
 /* -- Tipografia e Cores */
 
 html{
-    width: 980px
+    width: 980px;
+        }
+
+body{
+    margin-left: 20px;
 }
 
 header {
     background-color: rgb(228, 228, 228);
-}
+    padding-bottom: 0.5px;
+    padding-left: 10px;
+    }
 
 #natural{
     margin-top: 0;
@@ -22,6 +28,7 @@ header {
 
 header h1 {
     margin-bottom: 0;
+    padding-top: 10px;
 }
 
 .categoria h2{
@@ -33,18 +40,42 @@ header h1 {
 }
 
 h3{
-    margin-top: 20px;
+    margin-top: 12px;
     margin-bottom: 0px;
 }
 
 .colunaprincipal {
     width: 48%;
     float: left;
+    padding-left: 10px;
 }
 
 aside {
     width:48%;
-    float: right
+    float: right;
+    margin-top: 152px;
+    padding-right: 10px;
+}
+
+.fotoperfil img{
+    right: 600px;
+    top: 50px;
+    float: left;
+    position: absolute;
+    width: 225px;
+
+}
+
+h1, h2 {
+    text-transform: uppercase;
+}
+
+h2{
+    margin-bottom: 7px
+}
+
+.descricao{
+    text-align: justify;
 }
 
 /* -- Estrutura */
