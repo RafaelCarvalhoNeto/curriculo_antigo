@@ -14,12 +14,14 @@ html{
 
 body{
     margin-left: 20px;
+        
 }
 
 header {
     background-color: rgb(228, 228, 228);
     padding-bottom: 0.5px;
     padding-left: 10px;
+    overflow: hidden;
     }
 
 #natural{
@@ -33,6 +35,7 @@ header h1 {
 
 .categoria h2{
     border-bottom: 1px solid black;
+    font-size: 22px;
 }
 
 .subtitulo {
@@ -76,6 +79,63 @@ h2{
 
 .descricao{
     text-align: justify;
+    margin-top: 7px;
+}
+
+.blocoxp img{
+    width: 100%;
+    padding: 20px 30px 2px 30px ;
+    box-sizing: border-box;
+}
+.date {
+    margin: 20px 0 0 0;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: bold;
+
+}
+
+.xp {
+    margin-top:0;
+}
+
+.contatos ul li {
+    list-style: none;
+}
+
+.contatos ul{
+    padding: 0;
+}
+
+.contatos{
+    width: 60%;
+    padding-top: 10px;
+    margin-top: 0.67em;
+    font-size: 1    px;
+ 
+}
+
+.nomenumero {
+    width: 40%;
+}
+
+.nomenumero, .contatos{
+     float: left
+}
+
+span{
+    font-weight: bold;
+    font-size: 16px;
+
+}
+
+a{
+    text-decoration: none;
+    color: rgb(12, 103, 163);
+}
+
+a:hover{
+    color: orange;
 }
 
 /* -- Estrutura */
