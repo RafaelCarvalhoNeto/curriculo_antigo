@@ -14,6 +14,7 @@ html{
 
 body{
     margin-left: 20px;
+    position: relative;
             
 }
 
@@ -58,10 +59,11 @@ aside {
     float: right;
     margin-top: 152px;
     padding-right: 10px;
+    
 }
 
 .fotoperfil img{
-    right: 600px;
+    right: 100px;
     top: 50px;
     float: left;
     position: absolute;
